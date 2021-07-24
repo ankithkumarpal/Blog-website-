@@ -1,0 +1,77 @@
+
+
+.login{
+     background-color:  rgb(207, 188, 188);
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        position: relative;
+}
+
+.logininput{
+    display: flex;
+    flex-direction: column;
+}
+.loginform{
+    position: absolute;
+    top: 90px;
+    left: 20%;
+}
+.loginform h2{
+    margin-top: 20px;
+    /* background-color: teal; */
+    width: 7vw;
+    color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    color: wheat;
+    margin-bottom: 20px;
+    color: black;
+}
+.logininput input{
+    margin-top: 19px;
+    height: 6vh;
+    width: 15vw;
+    border-radius: 6px;
+    padding-left: 9px;
+}
+
+.loginbtn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 229px;
+    left: 70px;
+    width: 6vw;
+    height: 5vh;
+    font-size: 23px;
+    border-radius: 14px;
+    outline: none;
+    border:2px solid lightgrey;
+    /* background-color: teal; */
+    color: white;
+}
+/* .loginbtn:hover{
+    /* background-color: rgb(29, 163, 163); 
+} */
+.registerbtn{
+    position: absolute;
+    top: 13px;
+    left: 135px;
+    border: 2px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    height: 5vh;
+    font-size: 18px;
+    width: 10vw;
+    color: white;
+    /* background-color: teal; */
+}
+.registerregisterbtn{
+    margin-top:50px;
+}

@@ -1,0 +1,118 @@
+
+
+.readsingleposts{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.readsingleimg  img{
+    width: 70vw;
+    object-fit: cover;
+    height: 500px;
+    border-radius: 14px;
+}
+
+.readsinglepostsinfo{
+  margin: 20px;
+}
+.readsinglepostsinfo h2{
+    margin-left: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.author{
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    border-top: 2px solid coral;
+}
+.publishdate{
+    margin:   5px;
+    font-weight: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+.read{
+       width: 64vw;
+       font-size: 19px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+      margin-top: 20px;
+      margin-bottom: 3px;
+}
+.singlepost{
+    transition: 0.1s;
+
+}
+/* .singlepost:hover{
+   margin: 15px;
+} */
+.line{
+    margin-top: 50px;
+    border-top: 2px solid coral;
+}
+.u_d_btn{
+    display: flex;
+     margin-left: 900px;
+   
+}
+
+.update{
+    color: blue;
+    margin-right: 16px;
+}
+.update:hover{
+    cursor: pointer;
+}
+.delete{
+    color: red;
+    margin-left: 16px;
+    
+}
+.delete:hover{
+cursor: pointer;
+}
+
+.updateInput{
+    width:99%;
+    height: 5vh;
+    margin-bottom: 14px;
+    border:none;
+    
+}
+.updateInput:focus{
+    outline:none
+}
+.updatetextare{
+    width:100%;
+    height: 100%;
+    margin-top: 20px;
+    border:none;
+    
+    
+}
+.updatetextare:focus{
+    outline: none;
+}
+.updatePublish{
+ float: right;
+ width: 5vw;
+ height: 3vh;
+ margin-right: 30px;
+ margin-bottom: 10px;
+ background-color: purple;
+ color: white;
+}
+
+.updatePublish:hover{
+    background-color:blueviolet;
+}

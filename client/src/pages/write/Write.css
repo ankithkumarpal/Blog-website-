@@ -1,0 +1,87 @@
+
+.writeimage  img{
+   width: 80vw;
+   margin-top: 50px;
+   margin-left: 150px;
+   height: 40vh;
+   border-radius: 14px;
+}
+
+.writefile{
+    display: none;
+}
+.writeinfo{
+    margin-left: 150px;
+    margin-top: 120px;
+  
+    
+}
+
+.add{
+    font-size: 20px;
+    border-radius: 50%;
+     width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(78, 78, 69);
+    color: rgb(202, 196, 185);
+
+}
+
+
+.writetitle{
+   margin-top: 30px;
+   margin-bottom: 20px;
+   border: none;
+   text-transform: capitalize;
+   font-size: 24px;
+   width: 50%;
+   border-bottom: 1px solid lightgrey;
+}
+.writetitle:focus{
+    outline: none;
+}
+
+.writecontent{
+    display: flex;
+}
+.writecontent textarea{
+       border:  none;
+       width: 80%;
+       font-size: 18px;
+       border-bottom: 2px solid lightgrey;
+       height: 100vh;
+       margin-bottom: 30px;
+     
+}
+.writecontent textarea:focus{
+    outline: none;
+
+}
+.publishbtn {
+ margin-left: 30px;
+}
+
+.publishbtn button{
+    width: 80px;
+    font-size: 20px;
+   background-color: rgb(16, 171, 182);
+}
+.publishbtn button:hover{
+    background-color: rgb(23, 225, 240);
+}
+
+.update_deleteBtn {
+margin-left: 80vw;
+padding: 45px;
+padding-left: 45px;
+}
+
+.updateBtn{
+    margin: 19px;
+    color:blue;
+}
+.deleteBtn{
+    color: red;
+}

@@ -1,0 +1,92 @@
+
+.login{
+     background-color:  rgb(168, 154, 154);
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        position: relative;
+}
+
+.logininput{
+    display: flex;
+    flex-direction: column;
+}
+.loginform{
+    position: absolute;
+    top: 90px;
+    left: 20%;
+}
+.loginform h2{
+    margin-top: 20px;
+    /* background-color: teal; */
+    width: 7vw;
+    color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    color: wheat;
+    margin-bottom: 20px;
+   background-color: white;
+   font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.logininput input{
+    margin-top: 19px;
+    height: 6vh;
+    width: 15vw;
+    border-radius: 6px;
+    padding-left: 9px;
+}
+
+.loginbtn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 229px;
+    left: 70px;
+    width: 6vw;
+    height: 5vh;
+    background-color: blue;
+    font-size: 23px;
+    border-radius: 14px;
+    outline: none;
+    border:2px solid lightgrey;
+    /* background-color: teal; */
+    color: white;
+}
+.loginbtn:hover{
+background-color: rgba(0, 0, 255, 0.425);
+cursor: pointer;
+}
+/* .loginbtn:hover{
+    /* background-color: rgb(29, 163, 163); 
+} */
+.registerbtn{
+    position: absolute;
+    top: 12px;
+    left: 135px;
+    border: 2px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    height: 5vh;
+    font-size: 18px;
+    width: 10vw;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    /* background-color: teal; */
+}
+.registerbtn:hover{
+    background-color: rgba(0, 0, 255, 0.425);
+}
+
+/* 
+.registerbtn:hover{
+    /* background-color: rgb(29, 163, 163); 
+} 
+*/

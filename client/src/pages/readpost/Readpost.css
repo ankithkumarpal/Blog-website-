@@ -1,0 +1,12 @@
+
+.Readpost{
+    display: flex;
+    margin-top: 10px;
+   
+}
+.firstdiv{
+    margin: 35px;
+    border-radius: 14px;
+    border:  1px solid white;
+    background-color: #f3f3f3;
+}

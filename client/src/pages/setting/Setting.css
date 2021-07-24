@@ -1,0 +1,91 @@
+
+.setting{
+    display: flex;
+   
+}
+.settinginfo{
+   width: 70%;
+   height: 70vh;
+   /* background-color: red; */
+   margin-top: 35px;
+   margin-right: 20px;
+   margin-left: 30px;
+   border-radius: 14px;
+  background-color: rgb(139, 130, 130);
+}
+
+.settingtitle{
+    margin-top: 30px;
+   
+    font-size: 25px;
+  color: rgba(54, 4, 4, 0.836);
+ 
+}
+.settingline{
+    width: 281px;
+  
+    border-bottom: 1px solid coral;
+}
+.settingprofile{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 60px;
+    /* background-color: blueviolet; */
+}
+
+.settingprofile img{
+    width: 70px;
+    height: 70px;
+border-radius: 50%;
+    /* background-color: yellow; */
+}
+
+.usercircle{
+    margin-left: 6px;
+    font-size: 30px;
+}
+
+.settingform{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 20px;
+  
+}
+
+.settinginput{
+    margin-top: 20px;
+    height: 4vh;
+    font-size: 15px;
+   background-color: rgb(211, 206, 206);
+}
+.settingform input{
+   outline: none;
+   border:none;
+    border-bottom: 1px solid lightgrey;
+    padding: 5px;
+
+}
+
+.updatebutton {
+margin-left: 136px;
+font-size: 20px;
+border-radius: 14px;
+margin-top: 20px;
+}
+.updatebutton  button{
+    height: 4vh;
+    width: 11vh;
+    border-radius: 4px;
+    font-size: large;
+    background-color: teal;
+    color: white;
+}
+.updatebutton  button:hover{
+    background-color: rgb(22, 150, 150);
+}
